@@ -5,6 +5,7 @@ If you have a project and your main code reside's on a Github repo like this, an
 you can leverage AWS CodeBuild for automated deployment from Github to AWS Lambda. 
 
 Just FYI - 
+
 **AWS Lambda** is a serverless compute service provided by Amazon Web Services (AWS) that allows users to run code without provisioning or managing servers. It operates on an event-driven model, executing code in response to various events and automatically managing the underlying compute resources.
 
 **AWS CodeBuild** is a fully managed build service within the Amazon Web Services (AWS) cloud. It is designed to compile source code, run unit tests, and produce deployable artifacts, eliminating the need for users to provision, manage, and scale their own build servers.
