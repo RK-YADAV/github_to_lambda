@@ -28,9 +28,14 @@ In this demo, we are preparing -
   - Add your Github Repository Details
   - Configure AWS Code Buil Project:
      - Configure your Credentials so that AWS can check with Github for Events like PR Merge/Etc on specific branches.
+       
        <img width="596" height="762" alt="image" src="https://github.com/user-attachments/assets/cd4d5f9b-b6f7-4997-87de-c6c538fe186f" />
      - Configure the environment on which CodeBuild will run.
+       
+       <img width="602" height="712" alt="image" src="https://github.com/user-attachments/assets/e942b65d-6bf1-4bfd-a11e-a002c27b55fa" />
+
      - If Reqd, add your custom BuildSpec yaml file.
+       
        <img width="603" height="282" alt="image" src="https://github.com/user-attachments/assets/1754b5ed-39a4-4a87-9a1f-fa162b12020e" />
      - If your Codebuild, is using S3/Lambda/any other AWS resources, you will need to configure Lambda'a IAM/ Service Role policies accordingly.
        <img width="1297" height="551" alt="image" src="https://github.com/user-attachments/assets/fd18fd45-8509-4553-8c9e-f6229778a6cc" />
@@ -41,6 +46,7 @@ In this demo, we are preparing -
 5> Post build run, view the targetted lambda fucntion.
 
 **Lambda Function Post Deployment:**
+
 <img width="742" height="162" alt="image" src="https://github.com/user-attachments/assets/cd644a53-ce08-4a74-b23d-7baec40717f6" />
 
 **CodeBuild Project:**
