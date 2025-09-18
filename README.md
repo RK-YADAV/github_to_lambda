@@ -21,6 +21,7 @@ In this demo, we are preparing -
  - Lambda function - A python file, containing our main function, for serverless processing.
 
 **OVERVIEW OF STEPS INVOLVED:**
+
 1> Prepare the code, for Codebuild on local IDE (for me, it was Visual Studio Code).
 <img width="1252" height="302" alt="image" src="https://github.com/user-attachments/assets/0223c1a8-8f34-409c-a750-dbaacdbdad9d" />
 
