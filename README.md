@@ -1,7 +1,9 @@
 # Github [Project Repo] to AWS Lambda
 
 If your organization wants to use serverless computing (for example, to handle API or backend requests), then AWS Lambda can be a great choice.
+
 Suppose you already have a project where the main code is stored in a GitHub repository. If you want to take some parts of that code/scripts and run them as AWS Lambda functions, you don’t have to copy things manually.
+
 Instead, you can use AWS CodeBuild. It helps you automatically take your code from GitHub, build it, and deploy it to AWS Lambda whenever you make updates. This way, deployment is automated, faster, and less error-prone.
 
 # TL;DR
