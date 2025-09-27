@@ -6,6 +6,8 @@ Suppose you already have a project where the main code is stored in a GitHub rep
 
 Instead, you can use AWS CodeBuild. It helps you automatically take your code from GitHub, build it, and deploy it to AWS Lambda whenever you make updates. This way, deployment is automated, faster, and less error-prone.
 
+AWS Lambda can be used as an API endpoint by integrating it with Amazon API Gateway, which acts as the entry point for client requests. When a client calls the API Gateway URL, it forwards the request to the Lambda function, which runs your code (such as fetching data from a database or processing input) and returns the response. This setup allows you to build scalable, serverless APIs without managing servers, while API Gateway handles routing, authentication, and request/response formatting.
+
 # TL;DR
 
 Just FYI - 
