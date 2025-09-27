@@ -4,7 +4,7 @@ In an organization which is leveraging/ looking to leverage serverless compute f
 If you have a project and your main code reside's on a Github repo like this, and there are parts of which you want to deploy as an AWS lambda code, then 
 you can leverage AWS CodeBuild for automated deployment from Github to AWS Lambda. 
 
-#TL;DR
+# TL;DR
 
 Just FYI - 
 
