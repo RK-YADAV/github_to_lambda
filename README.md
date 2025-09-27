@@ -4,6 +4,8 @@ In an organization which is leveraging/ looking to leverage serverless compute f
 If you have a project and your main code reside's on a Github repo like this, and there are parts of which you want to deploy as an AWS lambda code, then 
 you can leverage AWS CodeBuild for automated deployment from Github to AWS Lambda. 
 
+#TL;DR
+
 Just FYI - 
 
 **AWS Lambda** is a serverless compute service provided by Amazon Web Services (AWS) that allows users to run code without provisioning or managing servers. It operates on an event-driven model, executing code in response to various events and automatically managing the underlying compute resources.
@@ -20,7 +22,7 @@ In this demo, we are preparing -
  - requirement.txt - Contains all the required packages and dependencies name required by the lambda function.
  - Lambda function - A python file, containing our main function, for serverless processing.
 
-**OVERVIEW OF STEPS INVOLVED:**
+# **OVERVIEW OF STEPS INVOLVED:**
 
 1> Prepare the code, for Codebuild on local IDE (for me, it was Visual Studio Code).
 <img width="1252" height="302" alt="image" src="https://github.com/user-attachments/assets/0223c1a8-8f34-409c-a750-dbaacdbdad9d" />
